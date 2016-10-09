@@ -1,0 +1,39 @@
+{
+  "name": "PROJECT NAME",
+  "version": "0.0.1",
+  "description": "DESCRIPTION",
+  "main": "index.js",
+  "scripts": {
+    "start": "scripts/run",
+    "develop": "scripts/develop",
+    "test": "mocha",
+    "lint": "eslint app/*"
+  },
+  "author": "Jordan Haven",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "^6.2.0",
+    "mocha": "^3.1.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.22.0",
+    "mustache-loader": "^0.4.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.9"
+  }
+}

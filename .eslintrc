@@ -1,0 +1,33 @@
+{
+   "parser": "babel-eslint",
+   "env": {
+      // Define globals exposed by modern browsers.
+      "browser": true,
+      // Define globals exposed by Node.js.
+      "node": true,
+  },
+  "ecmaVersion": 6,
+  "sourceType": "script",
+  "ecmaFeatures": {
+      "jsx": true,
+      "modules": false
+  },
+  "rules": {
+    "indent": ["error", "tab", { "SwitchCase": 1 }],
+    "eol-last": 0,
+    "max-len": ["error", 120, {"ignoreUrls": true, "ignoreComments": true}],
+    "react/jsx-indent":  ["error", "tab"],
+    "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+    "strict": ["error", "global"],
+    "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
+    "space-before-function-paren": ["error", {"anonymous": "always", "named": "never"}],
+    "no-console": 0,
+    "react/prefer-es6-class": 0,
+    "import/newline-after-import": 0,
+    "react/require-extension": 0
+  },
+  "plugins": [
+    "react"
+  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb"]
+}
